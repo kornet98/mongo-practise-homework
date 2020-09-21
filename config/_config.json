@@ -1,7 +1,7 @@
 {
   "test": {
-    "database": "mongodb://localhost:27017/tc",
-    "dbName": "tc",
+    "database": "mongodb+srv://kornet98:123qwerty@cluster0.izgnr.mongodb.net/users",
+    "dbName": "mongo",
     "dbConfig": {
       "useUnifiedTopology": true,
       "useNewUrlParser": true
@@ -10,8 +10,8 @@
     "debug": true
   },
   "local": {
-    "database": "mongodb://localhost:27017",
-    "dbName": "tc",
+    "database": "mongodb+srv://kornet98:123qwerty@cluster0.izgnr.mongodb.net/users",
+    "dbName": "mongo",
     "seed": true,
     "dbConfig": {
       "useUnifiedTopology": true,
